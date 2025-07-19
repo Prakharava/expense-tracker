@@ -1,8 +1,9 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Hero() {
   return (
-    <section className="bg-white lg:grid lg:h-screen lg:place-content-center dark:bg-gray-900">
+    <section className="bg-gay-50 flex flex-col items-center">
         <div className="mx-auto max-w-screen-md px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
             <div className="mx-auto text-center">
                 <h1 className="text-5xl font-extrabold text-gray-900 dark:text-white mb-6">
@@ -22,6 +23,11 @@ function Hero() {
                 </div>
             </div>
         </div>
+        <Image src={'/dash.webp'} alt='Expense Tracker'
+        width={1000}
+        height={600}
+        className="mt-5 rounded-xl border-2 shadow-lg"
+        />
     </section>
   )
 }

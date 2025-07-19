@@ -10,7 +10,7 @@ function Header() {
             width={50}
             height={50}
         />
-        <Button>Get Started</Button>
+        <Button className="inline-block rounded border border-indigo-600 bg-indigo-600 px-6 py-3 font-semibold text-white shadow transition-colors hover:bg-indigo-700 hover:border-indigo-700">Get Started</Button>
     </div>
   )
 }
